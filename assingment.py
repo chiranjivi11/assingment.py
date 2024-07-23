@@ -42,3 +42,12 @@ for i in range(1, min(a, b)+1):
         n+=1
 
 print(n)
+
+
+
+import re
+text = 'Python Exercises'
+text =text.replace (" ", "_")
+print(text)
+text =text.replace ("_", " ")
+print(text)
